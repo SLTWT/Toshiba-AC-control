@@ -29,7 +29,7 @@ class ToshibaAcDeviceManagerError(Exception):
 
 
 class ToshibaAcDeviceManager:
-    FETCH_ENERGY_CONSUMPTION_PERIOD_MINUTES = 10
+    FETCH_ENERGY_CONSUMPTION_PERIOD_MINUTES = 1
 
     def __init__(
         self,
